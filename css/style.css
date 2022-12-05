@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: linear-gradient(90deg, #02819b 0%, #090979 60%, #05024d 100%); }
+
+.header {
+  display: flex;
+  flex-direction: row; }
+
+.logoinicio {
+  margin: 20px 20px 20px 20px;
+  padding: 20px;
+  margin-left: 75px;
+  clip-path: circle(35% at 50% 50%);
+  display: inline-block;
+  width: 300px;
+  transition: all 3s ease; }
+  .logoinicio:hover {
+    transform: scale(1.2, 1.2); }
+
+.barradenav {
+  display: inline-block;
+  margin-top: 150px;
+  width: 100%;
+  margin-left: 450px; }
+  .barradenav .letras {
+    color: white; }
+
+.pd {
+  color: white;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 6px;
+  font-size: 20px;
+  border-radius: 20px;
+  height: 40px;
+  width: 270px;
+  margin-left: 300px;
+  margin-top: 90px;
+  border-bottom: 1px black outset;
+  border-right: 1px black outset; }
+
+.productos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 30px; }
+
+.card {
+  border-bottom: 1px black outset;
+  border-right: 1px black outset; }
+
+.card-img-top {
+  width: 220px;
+  height: 160px; }
+
+.card-text {
+  height: 170px; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 25px;
+  height: 100px; }
+  footer .footerredes {
+    margin-right: 15%; }
+  footer .footermarcas, footer .footerredes, footer .footerpagos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px; }
+  footer .footerpagos {
+    margin-left: 15%; }
+
+.logo {
+  width: 55px;
+  height: 55px; }
+
+.productosp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .productosp .card {
+    max-width: 1200px; }
+  .productosp .card-p {
+    width: 200px;
+    height: 150px;
+    margin-left: 110px;
+    margin-top: 30px;
+    align-items: center; }
+  .productosp .card-body {
+    height: 225px; }
+  .productosp .card-btn {
+    margin-top: 50px;
+    margin-right: 600px;
+    margin-bottom: 20px; }
+  .productosp .card-btn2060, .productosp .card-btn2070 {
+    margin-top: 50px;
+    margin-right: 600px; }
+  .productosp .card-btn3060, .productosp .card-btn3080, .productosp .card-btn3090 {
+    margin-top: 25px; }
+  .productosp .card-btn4090 {
+    margin-top: 2px; }
+
+.tituloayuda {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.subtituloayuda1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-left: 25%;
+  color: white; }
+
+.accordion {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 20px;
+  width: 1000px; }
+
+.maincarro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.card-carro {
+  width: 1200px;
+  height: 220px; }
+
+.card-bodyy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .card-bodyy .card-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 31%; }
+
+.card-title2 {
+  margin-right: 420px;
+  margin-top: 30px; }
+
+.card-text3 {
+  margin-right: 600px; }
+
+.img-carro {
+  height: 200px;
+  width: 200px;
+  margin-left: 20%; }
+
+.card-text {
+  color: blue; }
+
+.card2-text {
+  margin-top: 25px; }
+
+.boton-comprar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center; }
+
+.btn-comprar {
+  margin-right: 466px;
+  margin-top: 10px;
+  margin-bottom: 50px; }
+
+@media (max-width: 576px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .header .logoinicio {
+      margin-left: 0px; }
+    .header .barradenav {
+      margin-left: 0;
+      margin-top: 40px;
+      margin-bottom: 60px; }
+  .pd {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 153px;
+    margin-top: 60px; }
+  .productos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px; }
+  .card {
+    margin-top: 20px; }
+  footer {
+    width: 100%; }
+    footer .footerredes {
+      width: 110px;
+      margin-right: 30px; }
+    footer .footermarcas, footer .footerredes, footer .footerpagos {
+      width: 110px; }
+    footer .footerpagos {
+      width: 110px;
+      margin-left: 30px; }
+  .logo {
+    width: 30px;
+    height: 30px; }
+  .productosp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .productosp .card {
+      width: 80%; }
+    .productosp .card-p {
+      width: 150px;
+      height: 100px;
+      margin-left: 153px; }
+    .productosp .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 300px; }
+    .productosp .card-text {
+      font-size: 15px; }
+    .productosp .card-btn {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-right: 0; }
+    .productosp .card-btn2060, .productosp .card-btn2070 {
+      margin-top: 40px;
+      margin-right: 200px; }
+    .productosp .card-btn2070 {
+      margin-top: 60px;
+      margin-right: 200px; }
+    .productosp .card-btn2080 {
+      margin-top: 15px;
+      margin-right: 250px; }
+    .productosp .card-btn3050 {
+      margin-top: 35px; }
+    .productosp .card-btn3060, .productosp .card-btn3080, .productosp .card-btn3090 {
+      margin-top: 15px; }
+    .productosp .card-btn3070 {
+      margin-top: 35px;
+      margin-right: 200px; }
+    .productosp .card-btn3080 {
+      margin-top: 10px;
+      margin-right: 200px; }
+    .productosp .card-btn4090 {
+      margin-top: 10px; }
+  .subtituloayuda1 {
+    margin-left: 10%; }
+  .accordion {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%; }
+  .card-carro {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%; }
+  .img-carro {
+    height: 150px;
+    width: 150px;
+    margin-left: 30%; }
+  .card-bodyy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%; }
+  .card-title2 {
+    height: auto;
+    margin-right: 0px; }
+  .btn-comprar {
+    margin-right: 17.5%; } }
